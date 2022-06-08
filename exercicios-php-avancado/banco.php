@@ -1,30 +1,12 @@
 <?php
 
-//Functions
-function sacar(array $conta, float $valorASacar) : array
-{
-    if ($valorASacar > $conta['saldo']) {
-        exibeMensagem("Voce não pode sacar");
-    } else {
-        $conta['saldo'] -= $valorASacar;
-    }
-    return $conta;
-}
+//Inclui como arquivo não importante
+include 'funcoes.php';
 
-function depositar(array $conta, float $valorADepositar) : array
-{
-    if ($valorADepositar > 0) {
-        $conta['saldo'] += $valorADepositar;
-    } else {
-        exibeMensagem("Depositos precisam ser positivos");
-    }
-    return $conta;
-}
+//Inclui como arquivo importante, se tiver faltando,
+//já apresenta fatal error e não executa o restante do codigo
 
-function exibeMensagem(string $mensagem)
-{
-    echo $mensagem . PHP_EOL;
-}
+//require_once 'funcoes.php';
 
 $contasCorrentes = [
 
@@ -59,6 +41,16 @@ $contasCorrentes['121.256.789-12'] = depositar(
     900
 );
 
+//Funcao unset - remover item array
+unset($contasCorrentes['123.456.689-11']);
+
+titularComLetrasMaiusculas($contasCorrentes['121.256.789-12']);
+
 foreach ($contasCorrentes as $cpf => $conta) {
-    exibeMensagem($cpf . " " . $conta['titular'] . " " . $conta['saldo']);
+
+    //Funcao List
+    list('titular' => $titular, 'saldo' => $saldo) = $conta;
+    exibeMensagem(
+        "$cpf $titular $saldo"
+    );
 }

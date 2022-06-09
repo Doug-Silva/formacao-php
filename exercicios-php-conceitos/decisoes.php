@@ -18,12 +18,18 @@ if ($idade >= 18) {
 echo PHP_EOL;
 echo "Até logo!";
 
-/*Além disso, quando há apenas uma linha a ser executada, temos uma outra opção para tomar decisões.
-Se precisamos, por exemplo, atribuir o valor a uma variável nos baseando em alguma condição,
-podemos utilizar o que é chamado de operador ternário. Sua sintaxe é a seguinte:
-$variavel = $condicao ? $valorSeVerdadeiro : $valorSeFalso;*/
-
-/*Exemplo:
-$idade = 15;
-$mensagem = $idade < 18 ? ‘Você é menor de idade’ : ‘Você é maior de idade’;
-echo $mensagem;*/
+/*
+*******************************************************************************************************
+Além disso, quando há apenas uma linha a ser executada, temos uma outra opção para tomar decisões.    *
+Se precisamos, por exemplo, atribuir o valor a uma variável nos baseando em alguma condição,          *
+podemos utilizar o que é chamado de operador ternário. Sua sintaxe é a seguinte:                      *
+                                                                                                      *
+$variavel = $condicao ? $valorSeVerdadeiro : $valorSeFalso;                                           *
+                                                                                                      *
+Exemplo:                                                                                              *
+                                                                                                      *
+$idade = 15;                                                                                          *
+$mensagem = $idade < 18 ? ‘Você é menor de idade’ : ‘Você é maior de idade’;                          *
+echo $mensagem;                                                                                       *
+*******************************************************************************************************
+*/

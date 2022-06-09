@@ -7,4 +7,12 @@ $notas = [
     7
 ];
 
+//Ordenar array
+$notasOrdenadas = $notas;
+sort($notasOrdenadas);
+
+echo 'Desordenadas:';
 var_dump($notas);
+
+echo 'Ordenadas:';
+var_dump($notasOrdenadas);

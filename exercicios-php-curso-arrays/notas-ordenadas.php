@@ -1,7 +1,7 @@
 <?php
 
 $notas = [
-    'Vinicius' => 6,
+    'Vinicius' => null,
     'João' => 8,
     'Ana' => 10,
     'Roberto' => 7,

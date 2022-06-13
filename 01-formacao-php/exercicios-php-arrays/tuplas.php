@@ -6,6 +6,7 @@ $dados = [
     'idade' => 24,
 ];
 
+//lista
 list('nome' => $nome, 'nota' => $nota, 'idade' => $idade) = $dados;
 
 var_dump($nome, $nota, $idade);

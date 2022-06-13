@@ -23,7 +23,7 @@ array_push($alunos2022, 'Alice', 'Bob', 'Charlie');
 //Adicionar somente um elemento no array
 $alunos2022[] = 'Luiz';
 
-//Adicionar elementos no inicio do array
+//Adicionar elementos no início do array
 array_unshift($alunos2022, 'Stephane', 'Rafaela');
 
 var_dump($alunos2022);

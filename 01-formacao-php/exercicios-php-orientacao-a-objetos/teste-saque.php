@@ -1,6 +1,8 @@
 <?php
 
 use Alura\Banco\Modelo\Conta\Conta;
+use Alura\Banco\Modelo\Conta\ContaPoupaca;
+use Alura\Banco\Modelo\Conta\ContaCorrente;
 use Alura\Banco\Modelo\Conta\Titular;
 use Alura\Banco\Modelo\CPF;
 use Alura\Banco\Modelo\Endereco;
@@ -12,8 +14,7 @@ $conta = new Conta(
         new CPF('123.456.789-10'),
         'Vinícius Dias',
         new Endereco('Petrópolis', 'bairro Teste', 'Rua lá', '37')
-    ),
-    1
+    )
 );
 
 $conta->deposita(500);

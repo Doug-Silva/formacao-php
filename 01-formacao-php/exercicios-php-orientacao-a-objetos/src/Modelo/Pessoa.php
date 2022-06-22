@@ -1,5 +1,7 @@
 <?php
 
+namespace Alura\Banco\Modelo;
+
 class Pessoa
 {
     protected string $nome;
@@ -12,12 +14,12 @@ class Pessoa
         $this->cpf = $cpf;
     }
 
-        public function recuperaNome(): string
+    public function recuperaNome(): string
     {
         return $this->nome;
     }
 
-        public function recuperaCpf(): string
+    public function recuperaCpf(): string
     {
         return $this->cpf->recuperaNumero();
     }

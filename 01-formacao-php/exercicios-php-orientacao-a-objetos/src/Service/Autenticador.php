@@ -6,7 +6,6 @@ use Alura\Banco\Modelo\Funcionario\Diretor;
 
 class Autenticador
 {
-    //Teste autenticador..
     public function tentaLogin(Diretor $diretor, string $senha): void
     {
         if ($diretor->podeAutenticar($senha)) {

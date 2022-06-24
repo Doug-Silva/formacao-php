@@ -2,10 +2,10 @@
 
 $idade = 30;
 
-//Aspas simples concatenar com a variavel
+//aspas simples concatenar com a variavel
 echo 'Olá Mundo! Minha idade é ' . $idade;
 
-//Aspas duplas o php já entende a variavel
+//aspas duplas o php já entende a variavel
 echo "\nOlá Mundo!\r\n";
 echo "\n";
 echo "\t";

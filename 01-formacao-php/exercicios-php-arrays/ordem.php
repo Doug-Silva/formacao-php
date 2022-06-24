@@ -7,7 +7,7 @@ $notas = [
     7
 ];
 
-//Ordenar array
+//ordenar array
 $notasOrdenadas = $notas;
 sort($notasOrdenadas);
 

@@ -1,6 +1,6 @@
 <?php
 
-//Functions
+//functions
 function sacar(array $conta, float $valorASacar): array
 {
     if ($valorASacar > $conta['saldo']) {

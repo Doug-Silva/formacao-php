@@ -15,6 +15,6 @@ $novosAlunos = [
     'Daiane',
 ];
 
-//Unir duas listas a partir dos arrays
+//unir duas listas a partir dos arrays
 $alunos2022 = array_merge($alunos2021, $novosAlunos);
 var_dump($alunos2022);

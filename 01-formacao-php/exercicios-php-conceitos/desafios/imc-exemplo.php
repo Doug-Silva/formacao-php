@@ -15,13 +15,13 @@ $dicionario = [
 ];
 
 foreach($dicionario as $key => $value){
-    //Se a chave for menor que 40, então testa os valores de acordo com o IMC.
+    //se a chave for menor que 40, então testa os valores conforme o IMC.
     if((float) $key < 40.0){
         if($imc <= (float) $key){
             echo PHP_EOL."$value";
             break;
         }
-    //Se o IMC for maior ou igual a 40
+    //se o IMC for maior ou igual a 40
     }else{
         echo PHP_EOL."$value";
     }

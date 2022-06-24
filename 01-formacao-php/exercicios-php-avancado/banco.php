@@ -1,10 +1,10 @@
 <?php
 
-//Inclui como arquivo importante, se tiver faltando,
+//inclui como arquivo importante, se tiver faltando,
 //já apresenta fatal error e não executa o restante do codigo
 require_once 'funcoes.php';
 
-//Inclui como arquivo não importante
+//inclui como arquivo não importante
 //include 'funcoes.php';
 
 $contasCorrentes = [
@@ -40,7 +40,7 @@ $contasCorrentes['121.256.789-12'] = depositar(
     900
 );
 
-//Funcao unset - remover item array
+//funcao unset - remover item array
 unset($contasCorrentes['123.456.689-11']);
 
 titularComLetrasMaiusculas($contasCorrentes['121.256.789-12']);

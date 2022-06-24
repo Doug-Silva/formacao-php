@@ -14,9 +14,9 @@ $notasBimeste2 = [
     'Roberto' => 7,
 ];
 
-//Pegar um array com o nome dos alunos que faltaram
+//pegar um array com o nome dos alunos que faltaram
 $alunosFaltantes = array_diff_key($notasBimeste1, $notasBimeste2);
 
-//Função recebe um array e devolve suas chaves
+//função recebe um array e devolve suas chaves
 var_dump(array_keys($alunosFaltantes));
 var_dump(array_values($alunosFaltantes));

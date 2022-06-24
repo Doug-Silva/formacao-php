@@ -17,7 +17,7 @@ $notas = [
     ],
 ];
 
-//Ordenar utilizando usort
+//ordenar utilizando usort
 function ordenaNotas(array $nota1, array $nota2): int
 {
     if ($nota1['nota'] > $nota2['nota']) {
@@ -46,8 +46,8 @@ function ordenaNotas(array $nota1, array $nota2): int  *
 *************************************************************************************************
 Função usort = Espera dois parametros                                                           *
                                                                                                 *
-1º o array que ela vai ordenar.                                                                 *
-2º é uma funcao que ensina para ela o que vai ordenar.                                          *
+1.º o array que ela vai ordenar.                                                                *
+2.º é uma funcao que ensina para ela o que vai ordenar.                                         *
                                                                                                 *
 Esta função precisa retornar um inteiro (int).                                                  *
 Esse inteiro precisa ser < 0, se o primeiro parametro precisar vir antes no array ordenado.     *

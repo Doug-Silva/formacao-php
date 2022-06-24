@@ -8,12 +8,12 @@ $notas = [
     'Maria' => 9,
 ];
 
-//Verificar se é um array
+//verificar se é um array
 if (is_array($notas)) {
     echo 'Sim, é um array' . PHP_EOL;
 }
 
-//Verificar se é um array numerico, sequencial (lista)
+//verificar se é um array numerico, sequencial (lista)
 var_dump(array_is_list($notas));
 
 /*
@@ -24,7 +24,7 @@ in_array = Verifica se o valor existe.                            *
 *******************************************************************
 */
 
-//Verifica se chave dentro do array existe
+//verifica se chave dentro do array existe
 echo 'Vinicius fez a prova:' . PHP_EOL;
 var_dump(array_key_exists('Vinicius', $notas));
 
@@ -37,11 +37,11 @@ var_dump(isset($notas['Vinicius']));                              *
 *******************************************************************
 */
 
-//Verifica se o valor dentro de um array existe
+//verifica se o valor em um array existe
 echo 'Alguém tirou nota 10?' . PHP_EOL;
 var_dump(in_array(10, $notas));
 
-//Buscar no array chave seguindo determinado valor
+//buscar no array chave seguindo determinado valor
 echo 'Quem tirou nota 10?' . PHP_EOL;
 echo array_search(10, $notas);
 

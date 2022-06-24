@@ -21,7 +21,7 @@ $notasBimeste2 = [
 Diferença entre arrays:                                                                       *
                                                                                               *
 Essa função vai retornar todos os elementos de notasBimeste1 que não estão em notasBimeste2   *
-Obs: Só é levado em consideração o valor                                                      *
+Obs.: Só é levado em consideração o valor                                                     *
                                                                                               *
 Exemplo:                                                                                      *
 var_dump(array_diff($notasBimeste1, $notasBimeste2));                                         *
@@ -33,5 +33,5 @@ var_dump(array_diff_key($notasBimeste1, $notasBimeste2));                       
 ***********************************************************************************************
 */
 
-//Diferença entre arrays comparando as chaves e os valores
+//diferença entre arrays comparando as chaves e os valores
 var_dump(array_diff_assoc($notasBimeste1, $notasBimeste2));

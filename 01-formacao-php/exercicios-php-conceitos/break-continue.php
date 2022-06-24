@@ -3,7 +3,7 @@
 for ($contador = 1; $contador <= 15; $contador++) {
     if ($contador == 13) {
 
-        //Com o continue ele pula a linha 13
+        //com o continue ele pula a linha 13
         continue;
     }
 

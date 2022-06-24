@@ -1,20 +1,20 @@
 <?php
 
-//Tipos primitivos
-//Não é nescessario informar o tipo de dado no php
-//Linguagem dinamicamente tipada
+//tipos primitivos
+//não é nescessario informar o tipo de dado no php
+//linguagem dinamicamente tipada
 
 //integer = Número inteiro
 $idade = 21;
 
-//fluat ou double = Número decimal
+//float ou double = Número decimal
 $salario = 1000.30;
 $divisao = 10 / 3;
 
 //string = Texto
 $texto = "Olá Mundo";
 
-//Variáveis boolean
+//variáveis boolean
 $verdadeiro = true;
 $falso = false;
 

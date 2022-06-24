@@ -1,6 +1,6 @@
 <?php
 
-//Foreach
+//foreach
 $contasCorrentes = [
 
     '123.456.789-18' => [

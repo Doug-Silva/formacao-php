@@ -6,6 +6,7 @@ use Alura\Banco\Modelo\Funcionario\Funcionario;
 
 class ControladorDeBonificacoes
 {
+    //Controlador
     private int $totalBonificacoes = 0;
 
     public function adicionaBonificacaoDe(Funcionario $funcionario)

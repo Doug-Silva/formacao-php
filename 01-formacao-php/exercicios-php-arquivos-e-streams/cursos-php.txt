@@ -1,2 +1,4 @@
 Design Patterns PHP 1: Boas práticas de programação
 Design Patterns PHP 2: Boas práticas de programação
+Curso de PDO: Persistencia com PHP
+Orientação a Objetos com PHP

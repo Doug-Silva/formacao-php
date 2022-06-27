@@ -11,12 +11,6 @@ function funcao1()
         echo $erroOuExcecao->getMessage() . PHP_EOL;
         echo $erroOuExcecao->getLine() . PHP_EOL;
         echo $erroOuExcecao->getTraceAsString() . PHP_EOL;
-
-        throw new RuntimeException(
-            'Exceção foi tratada, mas, continuar',
-            1,
-            $erroOuExcecao
-        );
     }
 
     echo 'Saindo da função 1' . PHP_EOL;
@@ -27,7 +21,7 @@ function funcao2()
     echo 'Entrei na função 2' . PHP_EOL;
 
     //lançando uma exception
-    throw new RuntimeException();
+    throw new RuntimeException('Essa é a mensagem de exceção');
 
     //sera gerado um erro na aplicação
     echo 'Saindo da função 2' . PHP_EOL;

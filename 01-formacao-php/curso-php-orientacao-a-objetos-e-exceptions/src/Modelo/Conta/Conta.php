@@ -2,6 +2,8 @@
 
 namespace Alura\Banco\Modelo\Conta;
 
+use http\Exception\InvalidArgumentException;
+
 abstract class Conta
 {
     private Titular $titular;
@@ -22,8 +24,7 @@ abstract class Conta
         $valorSaque = $valorASacar + $tarifaSaque;
 
         if ($valorSaque > $this->saldo) {
-            echo "Saldo indisponível";
-            return;
+            throw new SaldoInsuficienteException($valorSaque, $this->saldo);
         }
 
         $this->saldo -= $valorSaque;
@@ -32,8 +33,7 @@ abstract class Conta
     public function deposita(float $valorADepositar): void
     {
         if ($valorADepositar < 0) {
-            echo "Valor precisa ser positivo";
-            return;
+            throw new \InvalidArgumentException();
         }
 
         $this->saldo += $valorADepositar;

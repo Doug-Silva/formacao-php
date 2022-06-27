@@ -6,7 +6,7 @@ $arquivoCursos = new SplFileObject('cursos.csv');
 while (!$arquivoCursos->eof()) {
     $linha = $arquivoCursos->fgetcsv(';');
 
-    echo utf8_encode($linha[0]) . PHP_EOL;
+    echo spl . phputf8_encode($linha[0]);
 }
 
 //verificar data de criação do arquivo

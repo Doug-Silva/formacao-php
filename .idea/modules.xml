@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/php-alura.iml" filepath="$PROJECT_DIR$/.idea/php-alura.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/formacao-php.iml" filepath="$PROJECT_DIR$/.idea/formacao-php.iml" />
     </modules>
   </component>
 </project>

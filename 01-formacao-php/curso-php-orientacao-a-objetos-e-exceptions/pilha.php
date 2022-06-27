@@ -4,7 +4,7 @@ function funcao1()
 {
     echo 'Entrei na função 1' . PHP_EOL;
 
-    //exemplos de erros:
+    //exemplos de exceções e erros:
 
     /*$arrayFixo = new SplFixedArray(2);
     $arrayFixo[3] = 'Valor';*/
